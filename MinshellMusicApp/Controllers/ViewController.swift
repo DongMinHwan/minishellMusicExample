@@ -119,6 +119,7 @@ extension ViewController: UISearchResultsUpdating {
         let vc = searchController.searchResultsController as! SearchResultViewController
         // 컬렉션뷰에 찾으려는 단어 전달
         vc.searchTerm = searchController.searchBar.text ?? ""
+        //테스트테스트
     }
 }
 
